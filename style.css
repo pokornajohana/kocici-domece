@@ -47,10 +47,12 @@ h1 {
 
 .motyl {
   position: absolute;
-  left: 260px;
-  top: 136px;
+  /*left: 260px;*/
+  /*top: 136px;*/
   width: 170px;
   height: 118px;
+  top: calc(50% - 118px / 2);
+  left: calc(50% - 170px / 2);
   /*
 		kočka nejraději honí motýly přesně
 		uprostřed domečku, protože tam má na
@@ -60,8 +62,10 @@ h1 {
 
 .kniha {
   position: absolute;
-  top: -60px;
-  left: -70px;
+  /*top: -60px;
+  left: -70px;*/
+  top: calc(-140px / 2);
+  left: calc(-120px / 2);
   width: 120px;
   height: 140px;
   /*
